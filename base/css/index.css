@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* *{
+    border: 0.02px solid green;
+} */
+header{
+    width: 90%;
+    height: 10vh;
+    /* background-color: aqua; */
+    margin: 0 5% 0 5%;  
+    padding-top: 1%;  
+}
+header>img{
+    float: left;
+}
+.mainText{
+    float: left;
+    width: 27.5%;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+nav{
+    float: left;
+    width: 45%;
+    /* background-color: blueviolet; */
+}
+nav>ul{
+    font-size: 20px;
+    width: 25%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 0;
+}
+.logIn, .signUp{
+    float: left;
+    width: 12%;
+    text-align: center;
+    font-size: 20px;
+}
+.signUp{
+    background: #209CEE;
+    border: 1px solid rgba(32, 156, 238, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
