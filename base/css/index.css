@@ -24,7 +24,6 @@ header>img{
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-weight: 800;
-    /* background: red; */
 }
 nav{
     float: left;
@@ -55,7 +54,10 @@ nav>ul{
     letter-spacing: 0.06em;
     line-height: 32px;
     font-family: 'Open Sans';
-    font-weight: 600;
+}
+.login:hover{
+    color: #02416A;
+    transition: 0.5s;
 }
 .signUp{
     background: #209CEE;
@@ -65,6 +67,11 @@ nav>ul{
     color: white;
     float: right;
     width: 10%;
+}
+.signUp:hover{
+    background-color: #02416A;
+    cursor: pointer;
+    transition: 0.5s;
 }
 .topMain{
     width: 100%;
@@ -129,6 +136,7 @@ nav>ul{
 .getStarted:hover{
     background: #02416A;
     cursor: pointer;
+    transition: 0.5s;
 }
 .seeDemo{
     color: #209CEE;
@@ -139,6 +147,7 @@ nav>ul{
     border: 1px solid #02416A;
     color: #02416A;
     cursor: pointer;
+    transition: 0.5s;
 }
 .secondMain{
     float: left;
@@ -151,10 +160,6 @@ nav>ul{
     font-weight: bold;
     font-size: 32px;
     font-family: 'Montserrat';  
-}
-.signUp:hover{
-    background-color: #02416A;
-    cursor: pointer;
 }
 .secondMain>aside{
     margin-top: 5%;
@@ -199,7 +204,7 @@ nav>ul{
     align-items: center;
     font-family: 'Open Sans';
 }
-.pricing{
+.pricing2{
     display: inline-flex;
     float: right;
     flex-direction: column;
