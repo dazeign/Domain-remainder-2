@@ -107,7 +107,7 @@ nav>ul{
 .topMainRight>img{
     position: absolute;
     left: 832px;
-    top: 80px;
+    top: 68px;
     width: 700px;
     height: 700px;
 }
@@ -140,12 +140,216 @@ nav>ul{
     color: #02416A;
     cursor: pointer;
 }
+.secondMain{
+    float: left;
+    width: 90%;
+    height: 100vh;
+    margin: 0% 5% 0% 5%;
+}
 .secondMain>p{
     text-align: center;
-    font-size: 36px;
-    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Montserrat';  
 }
 .signUp:hover{
     background-color: #02416A;
     cursor: pointer;
+}
+.secondMain>aside{
+    margin-top: 5%;
+    float: left;
+    width: 50%;
+}
+.secondMainLeft{
+    float: left;
+    width: 50%;
+}
+.secondMainLeft>p{
+    font-size: 32px;
+    font-family: 'Open Sans';
+    color: #209CEE;
+}
+.smallerText{
+    float: right;
+    width: 49%;
+    margin-right: 1%;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Montserrat';
+}
+.thirdMain{
+    float: left;
+    width: 100%;
+    height: 100vh;
+    background-color: #E2F3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.thirdMainLeft{
+    margin: 0% 5% 0% 3%;
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+.pricing{
+    display: inline-flex;
+    float: right;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20%;
+    color: #209CEE;
+    margin-top: -400px;
+    font-size: 32px;
+}
+.smallerText2{
+
+    display: inline-flex;
+    float: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -200px;
+    width: 20%;
+}
+.thirdMainLeft .card{
+    position: relative;
+    width: 30%;
+    cursor: pointer;
+}
+.thirdMainLeft .card .name{
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1;
+    margin-left: 5%;
+}
+.thirdMainLeft .card .name>h2{
+    font-weight: 500;
+    font-size: 1.5em;
+    
+}
+.thirdMainLeft .card .name>p{
+    font-size: 18px;
+}
+.thirdMainLeft .card .details{
+    position: relative;
+    text-align: center;
+    height: 0px;
+    top: -2px;
+    transition: 0.5s;
+    border: 2px solid #000;
+    margin-top: -2px;
+    overflow: hidden;
+    margin-left: 5%;
+}
+.thirdMainLeft .card .details .content{
+    position: relative;
+    padding: 10% 5%;
+}
+.thirdMainLeft .card .details .content>h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.thirdMainLeft .card .details .content>h2>span{
+    font-size: 20px;
+}
+.thirdMainLeft .card .details .content>a{
+    position: relative;
+    display: inline-block;
+    padding: 2.5% 5%;
+    margin-top: 15px;
+    background: #209CEE;
+    border-radius: 5px;
+    width: 80%;
+    color: #fff;
+    text-decoration: none;
+}
+.thirdMainLeft .card:nth-child(1) .name{
+    background: #CCF7FC;
+    border: 2px solid #AEAAAA;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+}
+.thirdMainLeft .card:nth-child(1):hover .name{
+    border-radius: 5px 5px 0 0;
+}
+.thirdMainLeft .card:nth-child(1) .details{
+    border: 2px solid #AEAAAA;
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+}
+.thirdMainLeft .card:nth-child(1):hover .details{
+    border: 2px solid #AEAAAA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 380px;
+}
+.thirdMainLeft .card:nth-child(2) .name{
+    background: #CCF7FC;
+    border: 2px solid #28E09E;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+}
+.thirdMainLeft .card:nth-child(2):hover .name{
+    border-radius: 5px 5px 0 0;
+}
+.thirdMainLeft .card:nth-child(2) .details{
+    background: #E2F3F5;
+    border: 2px solid #28E09E;
+    box-sizing: border-box;
+    border-radius: 5px;   
+}
+.thirdMainLeft .card:nth-child(2):hover .details{
+    border: 2px solid #28E09E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 380px;
+}
+.thirdMainLeft .card:nth-child(3) .name{
+    background: #CCF7FC;
+    border: 2px solid #CFB946;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+}
+.thirdMainLeft .card:nth-child(3):hover .name{
+    border-radius: 5px 5px 0 0;
+}
+.thirdMainLeft .card:nth-child(3) .details{
+    background: #E2F3F5;
+    border: 2px solid #CFB946;
+    box-sizing: border-box;
+    border-radius: 5px;     
+}
+.thirdMainLeft .card:nth-child(3):hover .details{
+    border: 2px solid #CFB946;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 380px;
+}
+.thirdMainLeft .card:nth-child(4) .name{
+    background: #CCF7FC;
+    border: 2px solid #4340CA;
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+}
+.thirdMainLeft .card:nth-child(4):hover .name{
+    border-radius: 5px 5px 0 0;
+}
+.thirdMainLeft .card:nth-child(4) .details{
+    background: #E2F3F5;
+    border: 2px solid #4340CA;
+    box-sizing: border-box;
+    border-radius: 5px;   
+}
+.thirdMainLeft .card:nth-child(4):hover .details{
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 380px;
 }
