@@ -204,25 +204,6 @@ nav>ul{
     align-items: center;
     font-family: 'Open Sans';
 }
-.pricing2{
-    display: inline-flex;
-    float: right;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 20%;
-    color: #209CEE;
-    margin-top: -400px;
-    font-size: 32px;
-}
-.smallerText2{
-
-    display: inline-flex;
-    float: right;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: -200px;
-    width: 20%;
-}
 .thirdMainLeft .card{
     position: relative;
     width: 30%;
@@ -357,4 +338,18 @@ nav>ul{
     box-sizing: border-box;
     border-radius: 5px;
     height: 380px;
+}
+.pricing2{
+    margin-left: 2%;
+    width: 20%;
+}
+.pricing2>span{
+    float: right;
+    width: 100%;
+    color: #209CEE;
+    font-size: 32px;
+    margin-bottom: 50%;
+}
+.pricing2>span:nth-child(2){
+    width: 100%;
 }
