@@ -51,7 +51,7 @@ nav>ul{
     width: 5%;
     text-align: center;
     font-size: 18px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     line-height: 32px;
     font-family: 'Open Sans';
 }
@@ -79,7 +79,7 @@ nav>ul{
     background-color: #E2F3F5;
 }
 .topMainLeft{
-    width: 50%;
+    width: 45%;
     margin: 6% 5% 10% 5%;
     float: left;
 }
@@ -94,7 +94,7 @@ nav>ul{
     font-weight: 800;
     line-height: 100px;
     display: block;
-    width: 52%;
+    width: 60%;
 }
 .topMainLeft>p>span:hover{
     cursor: pointer;
@@ -108,15 +108,15 @@ nav>ul{
 }
 .topMainRight{
     float: right;
-    width: 50%;
+    width: 55%;
     background-color: red;;
 }
 .topMainRight>img{
     position: absolute;
-    left: 832px;
-    top: 68px;
-    width: 700px;
-    height: 700px;
+    left: 800px;
+    top: 62px;
+    width: 770px;
+    height: 600px;
 }
 .getStarted, .seeDemo{
     font-family: 'Open Sans';
@@ -166,11 +166,11 @@ nav>ul{
     float: left;
     width: 50%;
 }
-.secondMainLeft{
+.secondMainLeft, .fourthMainLeft{
     float: left;
     width: 50%;
 }
-.secondMainLeft>p{
+.secondMainLeft>p, .fourthMainLeft>p{
     font-size: 32px;
     font-family: 'Open Sans';
     color: #209CEE;
@@ -215,6 +215,8 @@ nav>ul{
     text-align: center;
     z-index: 1;
     margin-left: 5%;
+    font-weight: 600;
+    background-color: #209CEE;
 }
 .thirdMainLeft .card .name>h2{
     font-weight: 500;
@@ -258,30 +260,30 @@ nav>ul{
     text-decoration: none;
 }
 .thirdMainLeft .card:nth-child(1) .name{
-    background: #CCF7FC;
-    border: 2px solid #AEAAAA;
+    border: 2px solid white;
     box-sizing: border-box;
     border-radius: 5px 5px 5px 5px;
+    color: white;
 }
 .thirdMainLeft .card:nth-child(1):hover .name{
     border-radius: 5px 5px 0 0;
 }
 .thirdMainLeft .card:nth-child(1) .details{
-    border: 2px solid #AEAAAA;
+    border: 2px solid white;
     box-sizing: border-box;
     border-radius: 0 0 5px 5px;
 }
 .thirdMainLeft .card:nth-child(1):hover .details{
-    border: 2px solid #AEAAAA;
+    border: 2px solid white;
     box-sizing: border-box;
     border-radius: 5px;
     height: 380px;
 }
 .thirdMainLeft .card:nth-child(2) .name{
-    background: #CCF7FC;
     border: 2px solid #28E09E;
     box-sizing: border-box;
     border-radius: 5px 5px 5px 5px;
+    color: white;
 }
 .thirdMainLeft .card:nth-child(2):hover .name{
     border-radius: 5px 5px 0 0;
@@ -299,10 +301,10 @@ nav>ul{
     height: 380px;
 }
 .thirdMainLeft .card:nth-child(3) .name{
-    background: #CCF7FC;
     border: 2px solid #CFB946;
     box-sizing: border-box;
     border-radius: 5px 5px 5px 5px;
+    color: white;
 }
 .thirdMainLeft .card:nth-child(3):hover .name{
     border-radius: 5px 5px 0 0;
@@ -320,10 +322,10 @@ nav>ul{
     height: 380px;
 }
 .thirdMainLeft .card:nth-child(4) .name{
-    background: #CCF7FC;
     border: 2px solid #4340CA;
     box-sizing: border-box;
     border-radius: 5px 5px 5px 5px;
+    color: white;
 }
 .thirdMainLeft .card:nth-child(4):hover .name{
     border-radius: 5px 5px 0 0;
@@ -352,4 +354,19 @@ nav>ul{
 }
 .pricing2>span:nth-child(2){
     width: 100%;
+}
+.fourthMainLeft{
+    margin-top: 1.5%;
+}
+.fourthMain{
+    float: left;
+    width: 90%;
+    height: 60vh;
+    margin: 0% 5% 0% 5%;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: 40vh;
+    background-color: #02416A;
 }
